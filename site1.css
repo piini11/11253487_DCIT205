@@ -1,0 +1,44 @@
+div.messages{
+    background-position:8px 8px;
+    background-repeat:no-repeat;
+    border:1px solid;
+    margin:10px 0;
+    padding:10px 10px 10px 50px;
+}
+div.status{
+    border-color:white;
+}
+div.status,.ok{
+    color:goldenrod;
+}
+div.status,table tr.ok{
+    background-color:white;
+}
+div.warning{
+    border-color:black;
+}
+div.warning,.warning{
+    color:blue;
+}
+div.warning,table tr.warning{
+    background-color:goldenrod;
+}
+div.error{
+    border-color:navy;
+}
+div.error,.error{
+    color:white;
+}
+div.error,table tr.error{
+    background-color:goldenrod;
+}
+div.error p.error{
+    color:navy;
+}
+div.messages ul{
+    margin:0 0 0 1em;
+    padding:0;
+}
+div.messages ul li{
+    list-style-image:none;
+}
